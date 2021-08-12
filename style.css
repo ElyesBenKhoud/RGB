@@ -1,10 +1,16 @@
 
 body {
-	background-color: #7c7979;
+	background-color: #207a91;
 	font-family: "Raleway", Sans-serif;
 	font-size: 62.5%;
 	margin: 0;
 }
+.description{
+    font-family: "Raleway", Sans-serif;
+    margin-left: 5%;
+
+}
+
 
 #container {
 	max-width: 600px;
@@ -12,76 +18,74 @@ body {
 	padding-top: 20px;
 
 }
-
-.description{
-    opacity: 0.5;
-    font-family: "Raleway", Sans-serif;
-    margin-left: 5%;
-
-}
-
 .square {
 	width: 30%;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(231, 223, 223);
 	padding-bottom: 30%;
 	float: left;
-	margin: 1%;
-    border-radius: 2cm;
+	margin: 1.66%;
+	border-radius: 2cm;
 
-    /* transition: background .5s;
-	-webkit-transition: background .5s;
-	-moz-transition: background .5s;
-	o-transition: background .5s; */
-	
 } 
-#stripe {
-	background: rgb(255, 255, 255);
-	height: 30px;
-	text-align: center;
-	color: black;
-}
 
 h1 {
 	color: white;
-	background-color: #0d0e09;
-	font-size: 2cm;
+	background-color: #c5c5c5;
+	font-size: 3.5em;
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0;
 	padding: 10px 0;
+	
 }
 
-#titleOfGame {
-	/* display: block; */
-	font-size: 70px;
+#reset{
+	border-radius: 2cm;
 }
 
-#space-between {
+.mode{
+	border-radius: 2cm;
+}
+
+.mode selector{
+	border-radius: 2cm;
+}
+
+
+#color-display {
+	font-size: 2em;
+	
+}
+
+#stripe {
+	background: rgb(0, 0, 0);
+	height: 35px;
+	text-align: center;
+	color: black;
+	
+}
+
+#message {
 	text-transform: uppercase;
-	color: #111313;
+	color: #36707a;
 	font-size: 1.5em;
 	display: inline-block;
-	width: 20%;
+	width: 15%;
+	
 }
 
 button {
 	outline: none;
-	color: #050505;
+	color: #030303;
 	font-family: "Raleway", Sans-serif;
 	text-transform: uppercase;
 	font-size: 1.5em;
 	background-color: white;
 	height: 100%;
-	letter-spacing: 7px;
-	/* transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	o-transition: all 0.3s; */
 }
 
-
-button:hover{
-	background-color: #090a0a;
+button:hover {
+	background-color: #000000;
 	color: white;
 }
 
@@ -89,6 +93,20 @@ button:hover{
 	background-color: #000000;
 	color: white;
 }
+
+#reset{
+	border-radius: 2cm;
+}
+
+.mode{
+	border-radius: 2cm;
+}
+
+.mode selector{
+	border-radius: 2cm;
+}
+
+
 
 
 
