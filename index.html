@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Color</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="description">
+          <h3> Red Green Blue </h3>
+         <p> RGB means Red Green Blue, ie the primary colors in additive color synthesis. </p>
+         <p>  A RGB file consists in composite layers of Red, Gree and Blue</p>
+         <p> each being coded on 256 levels from 0 to 255. For example</p>
+         <p> black corresponds to the levels R=0, G=0, B=0 </p>
+         <p> and white corresponds to the levels R=255, G=255, B=255.</p>
+
+    </div>
+ 
+    <h1 id="titleOfGame"> RGB Guessing Game</h1>
+	<div id ="stripe">
+		<button id="reset">New Colors</button>
+		<span   id="space-between"></span>
+		<button class="mode">Easy</button>
+		<button class="mode selected">Hard</button>
+	</div>
+
+    <div id="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+
+
+    
+
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
