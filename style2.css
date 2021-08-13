@@ -1,0 +1,27 @@
+body{
+    
+        background-color: #000000;
+        font-family: "Raleway", Sans-serif;
+        font-size: 62.5%;
+        margin: 0;
+        width: 100%;
+        height: auto;  
+}
+
+
+
+.description{
+    font-family: "Raleway", Sans-serif;
+	color: white;
+    margin-left: 30%;
+	letter-spacing: 2px;
+	font-size: 115%;
+	line-height: 0.2;
+	font-size: 165%;
+    margin-top: 5%;
+	
+}
+#welcome1{
+    margin-left: 14%;
+
+}

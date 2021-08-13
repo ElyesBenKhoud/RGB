@@ -7,16 +7,6 @@ body {
 	width: 100%;
 	height: auto;
 }
-.description{
-    font-family: "Raleway", Sans-serif;
-	color: white;
-    margin-left: 35%;
-	/* margin-top: 29%; */
-	font-size: 115%;
-	line-height: 0.2;
-	font-size: 165%;
-	
-}
 
 #container {
 	max-width: 600px;
@@ -41,7 +31,8 @@ h1 {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 10px 0;
-	margin-left: 5%;	
+	margin-left: 5%;
+	margin-top: 3%;	
 }
 #reset{
 	border-radius: 2cm;
