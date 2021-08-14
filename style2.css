@@ -30,13 +30,6 @@ body{
     margin-left: 7%;
 }
 
-.anchor{
-    border-radius: 2cm;
-}
-
-
-
-
 
 .glow-on-hover:before {
     content: '';

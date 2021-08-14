@@ -25,10 +25,11 @@ var pickedColor;
   //and i put them as variable so i can call it later easily
   //select the square 
 var squares = document.querySelectorAll(".square");
-//select the div with buttons
+//select buttons of new colors and easy&hard
 var colorDisplay = document.querySelector("#color-display");
+//declare a variable for the empty place between buttons to appear a text for "try again" or "correct"
 var messageDisplay = document.querySelector("#message");
-//select where i will run the function randomly to test the logic
+//select where i will run the function makecolor of random output number
 var h1 = document.querySelector("h1");
 //select button of new colors
 var resetButton = document.querySelector("#reset");
