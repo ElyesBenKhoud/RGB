@@ -1,5 +1,4 @@
 body{
-    
         background-color: #000000;
         font-family: "Raleway", Sans-serif;
         font-size: 62.5%;
@@ -7,9 +6,6 @@ body{
         width: 100%;
         height: auto;  
 }
-
-
-
 .description{
     font-family: "Raleway", Sans-serif;
 	color: white;
@@ -18,19 +14,14 @@ body{
 	font-size: 115%;
 	line-height: 0.2;
 	font-size: 165%;
-    margin-top: 5%;
-	
+    margin-top: 5%;	
 }
 #welcome1{
     margin-left: 14%;
-
 }
-
 .pic{
     margin-left: 7%;
 }
-
-
 .glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -47,7 +38,6 @@ body{
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
-
 .glow-on-hover:active {
     color: #000
 }
@@ -59,7 +49,6 @@ body{
 .glow-on-hover:hover:before {
     opacity: 1;
 }
-
 .glow-on-hover:after {
     z-index: -1;
     content: '';
@@ -71,7 +60,6 @@ body{
     top: 0;
     border-radius: 10px;
 }
-
 @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }

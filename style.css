@@ -21,7 +21,6 @@ body {
 	float: left;
 	margin: 1.66%;
 	border-radius: 2cm;
-
 } 
 h1 {
 	color: rgb(248, 248, 248);
@@ -45,8 +44,6 @@ h1 {
 .mode selector{
 	border-radius: 2cm;
 }
-
-
 #color-display {
 	font-size: 2em;
 	

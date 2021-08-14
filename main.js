@@ -68,18 +68,13 @@ function init() {
 resetButton.addEventListener("click", function() {
 	reset();
 });
-// $('#reset').click(function(){
-// 	reset() ;
-// })
-
-
 //first of all i set up the squares with colors and check if the color picked is the same as the clicked
 function setupSquares() {
 	//loop through the squares
 	for (var i = 0; i < squares.length; i++) {
 		//select the background with same color of squares
 		squares[i].style.backgroundColor = colors[i];
-		//select the button of 1 square when it's click will run function to check
+		//select the button of 1 square when it's clicked it  will run function to check
 		squares[i].addEventListener("click", function() {
 			var clickedColor = this.style.backgroundColor;
 			//to check if the clicked color is the same as the input color or no
